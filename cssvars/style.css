@@ -1,0 +1,39 @@
+:root {
+	--color: #ffffff;
+	--spacing: 10px;
+	--blur:2px;
+};
+
+body,html {
+  margin: 0;
+  padding: 0; 
+}
+html {
+	background:url(http://i.stack.imgur.com/vhoa0.jpg) ;
+	background-size: cover;
+	text-align: center;
+	 font-size: 10px;	
+	}	
+	h1 {
+		font-size: 4rem;
+		color: yellow;		
+		background:rgba(0,0,0,0.4);
+	}	
+	label {
+		font-size: 2rem;
+		color: white;
+		font-weight: bold;
+	}
+	.panel {
+		opacity: 0.5;
+	}
+	img {
+padding: var(--spacing);
+filter: blur(var(--blur));
+background: var(--color);
+height: 500px;
+width: 500px;
+	}
+	.title {
+		color : var(--color);
+	}
